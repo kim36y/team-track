@@ -41,8 +41,8 @@ server.register(require('bell'), function(err) {
             }
         },
         password: process.env.COOKIE_PASSWORD,
-        clientId: 229RNJ,
-        clientSecret: 54ea60b4665fdfaea5416eea3941a2e2,
+        clientId: '229RNJ',
+        clientSecret: '54ea60b4665fdfaea5416eea3941a2e2',
         cookie: 'bell-fitbit',
         isSecure: false // Remove if server is HTTPS, which it should be if using beyond a demo.
     });
